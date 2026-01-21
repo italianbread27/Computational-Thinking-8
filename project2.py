@@ -3,7 +3,7 @@ glover_points = 0
 neither_points = 0
 
 answer1 = input("Do you prefer A going outside and sliding, B staying inside gloving or  C play sport ")
-if answer1 == "A":
+if answer1 == "A" or answer1 == "a":
     slider_points += 1
 elif answer1 == "B":
      glover_points += 1
